@@ -5,10 +5,19 @@ body {
 }
 
 .header {
+  /*overflow: hidden;*/
   margin: 0;
-  padding: 0;
+  padding: 20px 30px;
   text-align: center;
-  text-size: 10;
+  background-color: #f1f1f1;
+}
+.header a{
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 18px;
+  border-radius: 4px;
+  line-height: 50px;
+  background-color: #f1f1f1;
 }
 
 .navigation ul {
@@ -20,7 +29,8 @@ body {
 .navigation li {
   font-weight: 100;
   letter-spacing: 2px;
-  padding: 20px;
+  padding: 10px;
+  display: inline-block;
 }
 
 .navigation  li.logo {
@@ -37,9 +47,10 @@ body {
   width: 100%;
 } */
 img{
-  width: 100%;
+  width: 50%;
   margin: auto;
   border: solid black 1px;
+
 
 
 }
@@ -48,7 +59,7 @@ img{
 #main {
   margin: auto;
   padding: 40px;
-  text-align: center;  
+  text-align: center;
 }
 
 h1 {
@@ -59,17 +70,16 @@ h1 {
 }
 
 h2 {
-  border: 1px dotted red;
   color: red;
   font-size: 14px;
   line-height: 48px;
-  padding: 20px 30px;
+
   margin: 30px 20px;
   text-align: center;
 }
 
 h3 {
-  color: red;
+  color: solid red;
   font-size: 26px;
   font-weight: 700;
   padding: 20px 10px;
@@ -120,3 +130,18 @@ p {
   border: 1px solid red;
   color: red;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.contactUS{
+   align: center;
+   padding: 100% 10%;
+
+}
+.contactUs a{
+  display: inline-block;
+
+  /* } */
